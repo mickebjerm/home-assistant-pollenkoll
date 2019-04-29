@@ -39,6 +39,8 @@ from datetime import datetime
 _LOGGER = logging.getLogger(__name__)
 _ENDPOINT = 'https://pollenkoll.se/wp-content/themes/pollenkoll/api/get_all.json'
 
+VERSION = '1.0.0'
+
 STATES = {
     "i.h.": 0,
     "L": 1,
